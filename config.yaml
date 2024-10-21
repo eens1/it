@@ -1,0 +1,24 @@
+module:
+   imports:
+      - path: github.com/eens1/config
+
+languageName: "Italiano"
+params:
+   dateFormat: "Jan 02, 2006"
+menu:
+   main:
+      - identifier: home
+        url: /
+        weight: 1
+        pre: <i class="fas fa-home"></i>
+
+      - url: https://eens-en.netlify.app
+        weight: 7
+        name: EN
+        pre: <i class="fas fa-globe"></i>
+
+      - url: https://eens-fr.netlify.app
+        weight: 8
+        name: FR
+        pre: <i class="fas fa-globe"></i>
+
