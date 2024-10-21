@@ -7,18 +7,15 @@ params:
    dateFormat: "Jan 02, 2006"
 menu:
    main:
-      - identifier: home
-        url: /
-        weight: 1
-        pre: <i class="fas fa-home"></i>
+      - identifier: languages
+        weight: 7
+        name: LANG
+        pre: "<i class='fas fa-globe'></i>"
 
       - url: https://eens-en.netlify.app
-        weight: 7
-        name: EN
-        pre: <i class="fas fa-globe"></i>
+        name: English
+        parent: languages 
 
       - url: https://eens-fr.netlify.app
-        weight: 8
-        name: FR
-        pre: <i class="fas fa-globe"></i>
-
+        name: Français
+        parent: languages 
