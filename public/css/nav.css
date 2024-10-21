@@ -1,3 +1,4 @@
+/* Existing styles */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -12,6 +13,7 @@
 
 .nav-links li {
   margin-left: 1rem;
+  position: relative; /* Required for dropdown positioning */
 }
 
 .nav-links a {
@@ -23,6 +25,35 @@
   font-weight: bold;
 }
 
+/* Dropdown menu styles */
+.dropdown:hover .dropdown-menu {
+  display: block; /* Show the submenu on hover */
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 0px;
+  list-style: none;
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  padding: 0px;
+}
+
+.dropdown-menu a {
+  color: #ddd;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+
+/* Hamburger menu styles */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -53,7 +84,7 @@
     padding: 1rem;
   }
   .nav-links li {
-      padding-bottom: 10px;
+    padding-bottom: 10px;
   }
   .nav-links.active {
     display: flex;
@@ -61,5 +92,22 @@
 
   .hamburger {
     display: flex;
+  }
+
+  /* Handle dropdown for mobile */
+  .dropdown-menu {
+    position: static;
+    display: none;
+    width: 100%;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links.active .dropdown-menu {
+    display: flex;
+    flex-direction: column;
   }
 }
