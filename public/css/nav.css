@@ -36,20 +36,23 @@
   top: 100%;
   left: 0;
   background-color: #333;
-  padding: 0px;
+  padding: 10px;
+  margin: 0px;
   list-style: none;
   z-index: 1000;
 }
 
 .dropdown-menu li {
   padding: 0px;
+   margin: 0px;
 }
 
 .dropdown-menu a {
   color: #ddd;
   text-decoration: none;
   display: block;
-  padding: 0.5rem 1rem;
+   margin: 0px;
+  padding: 0px;
 }
 
 
