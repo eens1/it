@@ -3,6 +3,7 @@ module:
       - path: github.com/eens1/config
 
 languageName: "Italiano"
+defaultContentLanguage: it
 params:
    dateFormat: "Jan 02, 2006"
 menu:
