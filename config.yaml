@@ -13,15 +13,15 @@ menu:
         weight: 1
         pre: <i class="fas fa-home"></i>
 
-      - identifier: languages
+      - identifier: lang
         weight: 7
-        name: LANG
+        name: ""
         pre: "<i class='fas fa-globe'></i>"
 
       - url: https://eens-en.netlify.app
         name: English
-        parent: languages 
+        parent: lang
 
       - url: https://eens-fr.netlify.app
         name: Français
-        parent: languages 
+        parent: lang
