@@ -7,6 +7,11 @@ params:
    dateFormat: "Jan 02, 2006"
 menu:
    main:
+      - identifier: home
+        url: /
+        weight: 1
+        pre: <i class="fas fa-home"></i>
+
       - identifier: languages
         weight: 7
         name: LANG
