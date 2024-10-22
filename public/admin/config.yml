@@ -1,0 +1,55 @@
+#backend:
+#  name: git-gateway
+#  branch: main
+
+backend:
+  name: github
+  # repo must be public
+  repo: eens1/hugo
+  # optional, defaults to master
+  # branch: main
+
+commit_messages:
+  create: Create {{collection}} “{{slug}}”
+  update: Update {{collection}} “{{slug}}”
+  delete: Delete {{collection}} “{{slug}}”
+  uploadMedia: Upload “{{path}}”
+  deleteMedia: Delete “{{path}}”
+  openAuthoring: '{{message}}'
+
+publish_mode: simple
+media_folder: "static/images"
+public_folder: "/images"
+
+site_url: https://eens.netlify.app
+display_url: https://eens.netlify.app
+logo_url: https://eens.netlify.app/images/logo.svg
+locale: 'en'
+show_preview_links: true
+search: true
+
+collections:
+  - name: "blogen"
+    label: "Blog EN"
+    folder: "content/en/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
+      - { label: "Rating (scale of 1-5)", name: "rating", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+  - name: "blogfr"
+    label: "Blog FR"
+    folder: "content/fr/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
+      - { label: "Rating (scale of 1-5)", name: "rating", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
