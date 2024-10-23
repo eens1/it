@@ -14,9 +14,8 @@ menu:
         pre: <i class="fas fa-home"></i>
 
       - identifier: lang
-        url: 'https://eens.netlify.app'
         weight: 7
-        name: ""
+        name: "LANG"
         pre: "<i class='fas fa-globe'></i>"
 
       - url: https://eens-en.netlify.app
