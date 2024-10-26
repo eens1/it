@@ -13,3 +13,4 @@ Papa Innocenzo III, *Concilio Laterano IV*, Costituzione 1, 1215, ex-cathedra: "
 Papa Pio IX, *Concilio Vaticano I*: "Poiché senza la fede è impossibile piacere a Dio e fare parte dei suoi figli, senza di essa nessuno può essere mai giustificato, come nessuno conseguirà la vita eterna, se non persevererà in essa fino alla fine. Perché poi potessimo soddisfare al dovere di abbracciare la vera fede e di perseverare costantemente in essa, per mezzo del figlio suo Dio istituì la chiesa..."
 
 San Giovanni Eudes: "Quando dunque vi accorgete che coloro che non credono nella Chiesa praticano molte opere buone, dicono molte preghiere, conducono una vita austera, non credere quindi che siano sulla via della salvezza né che ci si può salvare nella loro fede; commettereste un peccato enorme, perché sarebbe credere che ci si può salvare fuori della Chiesa, che si può avere fede senza credere alla Chiesa cattolica, o che ci si può salvare senza fede."
+
