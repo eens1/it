@@ -6,22 +6,23 @@ languageName: "Italiano"
 defaultContentLanguage: it
 params:
    dateFormat: "Jan 02, 2006"
-menu:
-   main:
-      - identifier: home
-        url: /
-        weight: 1
-        pre: <i class="fas fa-home"></i>
+   sidebar:
+     - title: "Home"
+       link: "/"
+     - title: "Vita Religiosa"
+       link: "/vita-religiosa"
+     - title: "Altre lingue"
+       submenu:
+         - title: "English"
+           link: "https://eens-en.netlify.app"
+         - title: "Français"
+           link: "https://eens-fr.netlify.app"
+     - title: "Links"
+       submenu:
+         - title: "VaticanCatholic.com"
+           link: "https://vaticancatholic.com"
+         - title: "VaticanCatholique.com"
+           link: "https://vaticancatholique.com"
+         - title: "VaticanoCattolico.com"
+           link: "https://vaticanocattolico.com"
 
-      - identifier: lang
-        weight: 7
-        name: "LANG"
-        pre: "<i class='fas fa-globe'></i>"
-
-      - url: https://eens-en.netlify.app
-        name: English
-        parent: lang
-
-      - url: https://eens-fr.netlify.app
-        name: Français
-        parent: lang
