@@ -19,21 +19,21 @@
 
   <link rel="stylesheet" href="/css/home.css">
 
-  <link rel="stylesheet" href="/css/nav.css">
-
   <link rel="stylesheet" href="/css/pagination.css">
 
   <link rel="stylesheet" href="/css/pdf.css">
 
   <link rel="stylesheet" href="/css/postnav.css">
 
+  <link rel="stylesheet" href="/css/right-sidebar.css">
+
+  <link rel="stylesheet" href="/css/sidebar.css">
+
   <link rel="stylesheet" href="/css/style.css">
 
 
 
 
-
-  <script src="/js/nav.js" defer></script>
 
 
 
@@ -49,47 +49,15 @@
 <meta name="twitter:description" content="" />
 <meta name="twitter:image" content="/" />
 
-
 </head>
 
 <body>
 
 <header>
 
-
-	
-
 </header>
 
 <main>
-
-
-	<nav class="navbar">
-
-<div class="logo">
-<a href="https://eens.netlify.app">
-(&tau;) Extra Ecclesiam Nulla Salus
-</a>
-</div>
-
-<div class="banner">
-<img src="/images/banner.png"/>
-</div>
-
-  <div class="hamburger">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-  </div>
-
-  <ul class="nav-links">
-    
-    
-  </ul>
-  
-</nav>
-
-
 
 
 
@@ -169,6 +137,125 @@
 
 
 </main>
+
+
+<div id="sidebar" class="sidebar">
+  <button id="toggle-sidebar" class="toggle-button">☰</button>
+  <div class="sidebar-content">
+    <ul>
+      
+      <li>
+        <a 
+          href="/" 
+          class="">
+          Home
+          
+        </a>
+        
+      </li>
+      
+      <li>
+        <a 
+          href="/vita-religiosa" 
+          class="">
+          Vita Religiosa
+          
+        </a>
+        
+      </li>
+      
+      <li>
+        <a 
+          href="#" 
+          class="has-submenu">
+          Altre lingue
+          
+          <span class="submenu-indicator">▶</span>
+          
+        </a>
+        
+        <ul class="submenu">
+          
+          <li>
+            <a href="https://eens-en.netlify.app">English</a>
+          </li>
+          
+          <li>
+            <a href="https://eens-fr.netlify.app">Français</a>
+          </li>
+          
+        </ul>
+        
+      </li>
+      
+      <li>
+        <a 
+          href="#" 
+          class="has-submenu">
+          Links
+          
+          <span class="submenu-indicator">▶</span>
+          
+        </a>
+        
+        <ul class="submenu">
+          
+          <li>
+            <a href="https://vaticancatholic.com">VaticanCatholic.com</a>
+          </li>
+          
+          <li>
+            <a href="https://vaticancatholique.com">VaticanCatholique.com</a>
+          </li>
+          
+          <li>
+            <a href="https://vaticanocattolico.com">VaticanoCattolico.com</a>
+          </li>
+          
+        </ul>
+        
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<script>
+  const sidebar = document.getElementById('sidebar');
+  const toggleButton = document.getElementById('toggle-sidebar');
+
+  
+  toggleButton.addEventListener('click', function () {
+    sidebar.classList.toggle('collapsed');
+  });
+
+  
+  if (window.innerWidth <= 768) {
+    sidebar.classList.add('collapsed');
+  }
+
+  
+  window.addEventListener('resize', function () {
+    if (window.innerWidth <= 768) {
+      sidebar.classList.add('collapsed');
+    } else {
+      sidebar.classList.remove('collapsed');
+    }
+  });
+
+  
+  document.querySelectorAll('.sidebar-content ul > li > a.has-submenu').forEach(function (menuItem) {
+    const submenu = menuItem.nextElementSibling;
+    if (submenu && submenu.classList.contains('submenu')) {
+      menuItem.addEventListener('click', function (event) {
+        event.preventDefault(); 
+        submenu.classList.toggle('expanded');
+        this.querySelector('.submenu-indicator').classList.toggle('rotated');
+      });
+    }
+  });
+</script>
+
+
 
 <footer>
 
