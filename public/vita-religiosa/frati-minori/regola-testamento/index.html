@@ -275,26 +275,38 @@
     </ul>
   </div>
 </div>
+
 <script>
   const sidebar = document.getElementById('sidebar');
   const toggleButton = document.getElementById('toggle-sidebar');
+  const sidebarContent = document.querySelector('.sidebar-content');
 
   
   toggleButton.addEventListener('click', function () {
     sidebar.classList.toggle('collapsed');
+
+    
+    if (sidebar.classList.contains('collapsed')) {
+      sidebarContent.style.visibility = 'hidden';
+    } else {
+      sidebarContent.style.visibility = 'visible';
+    }
   });
 
   
   if (window.innerWidth <= 768) {
     sidebar.classList.add('collapsed');
+    sidebarContent.style.visibility = 'hidden'; 
   }
 
   
   window.addEventListener('resize', function () {
     if (window.innerWidth <= 768) {
       sidebar.classList.add('collapsed');
+      sidebarContent.style.visibility = 'hidden'; 
     } else {
       sidebar.classList.remove('collapsed');
+      sidebarContent.style.visibility = 'visible'; 
     }
   });
 
