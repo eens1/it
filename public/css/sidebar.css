@@ -67,10 +67,12 @@
    display:none;
    margin-left:20px;
    padding-left:10px;
+   border-left:2px solid #ffffff33;
 }
 
 .submenu.expanded {
    display:block;
+   padding: 0px 0px 0px 10px;
 }
 
 /* Submenu indicator styles */
