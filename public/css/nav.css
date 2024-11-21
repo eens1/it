@@ -158,7 +158,7 @@
 }
 
 /* Large Screen - Reduced Space Between Submenus */
-@media (min-width: 801px) {
+@media (min-width: 800px) {
   .dropdown-menu a {
     padding: 0px 0px 10px 0px; /* Reduced padding between submenu items */
   }
