@@ -1,8 +1,6 @@
 @import url('https://fonts.bunny.net/css?family=nunito:300,400,600,700');
 
 body {
-max-width: 800px;
-margin: auto;
 padding: 10px;
 background-color: rgb(20,20,20);
 background-color: black;
@@ -37,7 +35,9 @@ text-decoration: underline;
 }
 
 main {
+max-width: 800px;
 min-height: 500px;
+margin: auto;
 }
 
 footer {

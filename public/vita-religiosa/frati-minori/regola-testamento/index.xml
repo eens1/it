@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regola e Testamento di San Francesco on </title>
-    <link>//localhost:1313/vita-religiosa/frati-minori/regola-testamento/</link>
+    <link>/vita-religiosa/frati-minori/regola-testamento/</link>
     <description>Recent content in Regola e Testamento di San Francesco on </description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/vita-religiosa/frati-minori/regola-testamento/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/vita-religiosa/frati-minori/regola-testamento/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Capitolo 1</title>
-      <link>//localhost:1313/vita-religiosa/frati-minori/regola-testamento/01/</link>
+      <link>/vita-religiosa/frati-minori/regola-testamento/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/vita-religiosa/frati-minori/regola-testamento/01/</guid>
+      <guid>/vita-religiosa/frati-minori/regola-testamento/01/</guid>
       <description>Nel Nome del Signore incomincia la Regola e Vita dei Frati Minori</description>
     </item>
     <item>
       <title>Capitolo 2</title>
-      <link>//localhost:1313/vita-religiosa/frati-minori/regola-testamento/02/</link>
+      <link>/vita-religiosa/frati-minori/regola-testamento/02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/vita-religiosa/frati-minori/regola-testamento/02/</guid>
+      <guid>/vita-religiosa/frati-minori/regola-testamento/02/</guid>
       <description>Di quelli, che vogliono ricevere questa vita, ed in qual modo debbano essere ricevuti.</description>
     </item>
     <item>
       <title>Capitolo 3</title>
-      <link>//localhost:1313/vita-religiosa/frati-minori/regola-testamento/03/</link>
+      <link>/vita-religiosa/frati-minori/regola-testamento/03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/vita-religiosa/frati-minori/regola-testamento/03/</guid>
+      <guid>/vita-religiosa/frati-minori/regola-testamento/03/</guid>
       <description>Del divino Officio e digiuno, ed in qual modo i Frati debbano andare per il mondo.</description>
     </item>
     <item>
       <title>Prologo</title>
-      <link>//localhost:1313/vita-religiosa/frati-minori/regola-testamento/00/</link>
+      <link>/vita-religiosa/frati-minori/regola-testamento/00/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/vita-religiosa/frati-minori/regola-testamento/00/</guid>
+      <guid>/vita-religiosa/frati-minori/regola-testamento/00/</guid>
       <description>Bolla di Papa Onorio III sopra la Regola dei Frati Minori.&#xA;Onorio Vescovo, Servo dei servi di Dio. Ai diletti figliuoti Frate Francesco ed agli altri Frati dell&amp;rsquo;Ordine dei Frati Minori, salute ed apostolica benedizione.&#xA;Suole condiscendere la Sede Apostolica ai pietosi voti ed agli onesti desiderii di quelli, che domandano, dare benevolo favore. Per tanto, o diletti figliuoli nel Signore, Noi, inclinati ai vostri pietosi prieghi, per autorità apostolica vi confermiamo la Regola dell&amp;rsquo;Ordine vostro, approvata da Innocenzo Papa, di buona memoria, predecessore Nostro, scritta nelle presenti lettere, e coll&amp;rsquo;aiuto del presente scritto ve la fortifichiamo, la quale Regola è tale:</description>
     </item>
   </channel>

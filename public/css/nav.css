@@ -24,7 +24,7 @@
   display: flex;
   list-style: none;
   padding-left: 0px;
-   margin: 0px;
+   margin: 10px 0px 0px 0px;
 }
 
 .nav-links li {
