@@ -19,7 +19,7 @@
 }
 
 .breadcrumb li:not(:last-child)::after {
-  content: "›";
+  content: "/";
   margin: 0 10px;
   color: #666;
 }

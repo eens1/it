@@ -5,20 +5,6 @@
   align-items: center;
   color: #ddd;
 }
-.navbar .logo {
-   margin-bottom: 10px;
-}
-.navbar .logo a {
-   font-size: 20px;
-   font-weight: bold;
-}
-.navbar .logo a:hover {
-   text-decoration: none;
-}
-
-.logo img {
-  width: 100%;
-}
 
 .nav-links {
   display: flex;
@@ -27,7 +13,7 @@
    margin: 10px 0px 0px 0px;
 }
 
-.nav-links li {
+.nav-links li:not(:first-child) {
   margin-left: 1.5rem;
   position: relative; /* Required for dropdown positioning */
 }
@@ -35,7 +21,6 @@
 .nav-links a {
   color: #ddd;
   text-decoration: none;
-  font-size: 1.1rem;
   padding: 7px 0; /* Uniform padding for menu items */
   display: block;
   width: 100%;
