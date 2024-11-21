@@ -10,17 +10,22 @@
   display: flex;
   list-style: none;
   padding-left: 0px;
-   margin: 10px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .nav-links li:not(:first-child) {
   margin-left: 1.5rem;
-  position: relative; /* Required for dropdown positioning */
-}
+  position: relative; /* required for dropdown positioning */
+} 
+.nav-links li li {
+  margin-left: 1.5rem;
+  position: relative; /* required for dropdown positioning */
+} 
 
 .nav-links a {
   color: #ddd;
   text-decoration: none;
+  font-size: 1.1rem;
   padding: 7px 0; /* Uniform padding for menu items */
   display: block;
   width: 100%;
@@ -143,7 +148,7 @@
 }
 
 /* Large Screen - Reduced Space Between Submenus */
-@media (min-width: 800px) {
+@media (min-width: 801px) {
   .dropdown-menu a {
     padding: 0px 0px 10px 0px; /* Reduced padding between submenu items */
   }
