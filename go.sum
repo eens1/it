@@ -80,3 +80,5 @@ github.com/eens1/config v0.0.0-20241122070350-b0d253ea0094 h1:T4mQQUI92f9AC3ViD4
 github.com/eens1/config v0.0.0-20241122070350-b0d253ea0094/go.mod h1:WccIBwO6Cw5wlt2HJ3katlH0qZNQeeaLX7+GkVR0FmI=
 github.com/eens1/config v0.0.0-20241122070721-a802c045a41e h1:3py7mdFAwQ7m5TKmJBZqks87AlZidQLEsSDraHbu+/c=
 github.com/eens1/config v0.0.0-20241122070721-a802c045a41e/go.mod h1:WccIBwO6Cw5wlt2HJ3katlH0qZNQeeaLX7+GkVR0FmI=
+github.com/eens1/config v0.0.0-20241122070945-8b4a86633fb0 h1:Qt64MDaMS/JyR8fy0LcwtE0/yfqVsturkFTxCiDwuEE=
+github.com/eens1/config v0.0.0-20241122070945-8b4a86633fb0/go.mod h1:WccIBwO6Cw5wlt2HJ3katlH0qZNQeeaLX7+GkVR0FmI=
