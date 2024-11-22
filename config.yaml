@@ -11,20 +11,14 @@ params:
    dateFormat: "Jan 02, 2006"
 menu:
    main:
-      - identifier: home
+      - name: Home
         url: /
         weight: 1
-        pre: <i class="fas fa-home"></i>
 
-      - identifier: lang
-        weight: 7
-        name: "LANG"
-        pre: "<i class='fas fa-globe'></i>"
+      - name: "English"
+        url: "https://eens-en.netlify.app"
+        weight: 2 
 
-      - url: https://eens-en.netlify.app
-        name: English
-        parent: lang
-
-      - url: https://eens-fr.netlify.app
-        name: Français
-        parent: lang
+      - name: "Français"
+        url: "https://eens-fr.netlify.app"
+        weight: 3 
