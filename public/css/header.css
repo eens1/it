@@ -14,7 +14,7 @@ padding: 10px 15px 10px 15px;
 }
 
 .site-title img {
-width: 40px;
+width: 35px;
 margin-right: 7px;
 border-radius: 3px;
 }
@@ -67,7 +67,7 @@ nav ul li a:hover {
   transition: 0.4s;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .hamburger {
     display: flex;
   }
@@ -95,6 +95,9 @@ nav ul li a:hover {
   .site-title {
    margin: auto;
   }
+  .site-title a {
+   margin-left: 40px;
+   }
 
   .site-title span {
   display: none;
@@ -104,3 +107,5 @@ nav ul li a:hover {
    margin: 0px;
    }
 }
+
+
