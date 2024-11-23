@@ -13,18 +13,15 @@ padding: 10px 15px 10px 15px;
   align-items: center;
 }
 
-.site-title {
-display: flex;
-align-items: center;
-}
-
 .site-title img {
-width: 35px;
-margin-right: 5px;
+width: 40px;
+margin-right: 7px;
 border-radius: 3px;
 }
 
 .site-title a {
+  display: flex;
+  align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
@@ -63,10 +60,10 @@ nav ul li a:hover {
 }
 
 .hamburger span {
-  width: 25px;
-  height: 3px;
+  width: 40px;
+  height: 4px;
   background-color: var(--text-color);
-  margin: 2px 0;
+  margin: 4px 0;
   transition: 0.4s;
 }
 
@@ -83,7 +80,7 @@ nav ul li a:hover {
     left: 0;
     width: 100%;
     background-color: var(--header-bg-color);
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 
   .nav-menu.active {
@@ -92,13 +89,18 @@ nav ul li a:hover {
 
   nav ul li {
     margin: 0.5rem 0;
+    padding: 0px 0px 0px 10px;
   }
 
   .site-title {
    margin: auto;
   }
 
-  .site-title a {
+  .site-title span {
   display: none;
   }
+
+   .site-title img {
+   margin: 0px;
+   }
 }
