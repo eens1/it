@@ -1,14 +1,20 @@
-.quick-links {
-margin: 10px 10px 10px 10px;
+.home .quick-links {
+margin: 0px 10px 10px 10px;
 }
 
-.quick-links-container {
+.home .heading {
+text-align: center;
+font-weight: bold;
+margin-top: 20px;
+}
+
+.home .quick-links-container {
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
 
-.quick-links-group {
+.home .quick-links-group {
 margin: 10px;
 background-color: rgb(30,30,30);
 padding: 10px;
@@ -16,20 +22,58 @@ border-radius: 5px;
 width: 270px;
 }
 
-.quick-links ul {
+.home .quick-links ul {
 padding: 10px 0px 0px 0px;
 margin: 0px 0px 0px 0px;
 border-top: 1px solid;
 list-style: inside;
 }
 
-.home .quick-links li {
+.home .home .quick-links li {
 margin-bottom: 2px;
 }
 
 @media screen and (max-width: 850px) {
-.quick-links {
+.home .quick-links {
 margin: 10px 0px 10px 0px;
 }
+}
 
+
+
+.home .latest-posts-container {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+padding: 10px;
+justify-content: center;
+}
+.home .post-item {
+text-align: center;
+color: #ffffff;
+border-radius: 8px;
+overflow: hidden;
+background-color: #1e1e1e;
+width: 270px;
+height: 300px;
+}
+.home .post-item img {
+display: block;
+border-bottom: 1px solid #2c2c2c;
+height: 300px;
+width: auto;
+}
+.home .post-item h3 {
+font-size: 16px;
+margin: 0px;
+padding: 10px;
+}
+.home .post-item a {
+display: block;
+text-decoration: none;
+overflow: hidden;
+height: 200px;
+}
+.home .post-item a:hover {
+text-decoration: none;
 }
