@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frati Minori on Extra Ecclesiam Nulla Salus</title>
-    <link>http://localhost:1313/vita-religiosa/frati-minori/</link>
+    <link>https://eens-it.netlify.app/vita-religiosa/frati-minori/</link>
     <description>Recent content in Frati Minori on Extra Ecclesiam Nulla Salus</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/vita-religiosa/frati-minori/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://eens-it.netlify.app/vita-religiosa/frati-minori/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
