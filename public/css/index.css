@@ -97,7 +97,6 @@ text-decoration: none;
 .homepage-dark-section .text-block-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   justify-content: center; /* Center blocks in the section */
 }
 
@@ -109,6 +108,7 @@ text-decoration: none;
   flex: 1 1 calc(33.333% - 1rem); /* Responsive three columns */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   max-width: 500px;
+  margin: 10px;
 }
 
 /* Ensure responsiveness */
