@@ -22,6 +22,10 @@ border-radius: 5px;
 width: 270px;
 }
 
+.home .quick-links-group .title a {
+color: var(--text-color)
+}
+
 .home .quick-links ul {
 padding: 10px 0px 0px 0px;
 margin: 0px 0px 0px 0px;
@@ -44,7 +48,6 @@ margin: 10px 0px 10px 0px;
 .home .latest-posts-container {
 display: flex;
 flex-wrap: wrap;
-gap: 20px;
 padding: 10px;
 justify-content: center;
 }
@@ -56,6 +59,7 @@ overflow: hidden;
 background-color: #1e1e1e;
 width: 270px;
 height: 300px;
+margin: 10px;
 }
 .home .post-item img {
 display: block;
@@ -76,4 +80,79 @@ height: 200px;
 }
 .home .post-item a:hover {
 text-decoration: none;
+}
+
+
+
+
+
+
+/* Dark-themed section wrapper */
+.homepage-dark-section {
+  padding: 2rem;
+  color: #f5f5f5; /* Light text for contrast */
+}
+
+/* Wrapper for text blocks */
+.homepage-dark-section .text-block-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center; /* Center blocks in the section */
+}
+
+/* Individual text blocks */
+.homepage-dark-section .text-block {
+  background-color: #2a2a2a; /* Slightly lighter dark box */
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1 1 calc(33.333% - 1rem); /* Responsive three columns */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+  .homepage-dark-section .text-block {
+    flex: 1 1 calc(50% - 1rem); /* Two columns on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .homepage-dark-section .text-block {
+    flex: 1 1 100%; /* Single column on small screens */
+  }
+}
+
+
+
+/* Style for Markdown elements */
+
+/* Styling for links */
+.homepage-dark-section .text-block a {
+  color: #1e90ff; /* Highlight links */
+  text-decoration: none;
+}
+
+.homepage-dark-section .text-block a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for lists */
+.homepage-dark-section .text-block ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.homepage-dark-section .text-block li {
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for bold and italic text */
+.homepage-dark-section .text-block strong {
+  font-weight: bold;
+}
+
+.homepage-dark-section .text-block em {
+  font-style: italic;
 }
