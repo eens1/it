@@ -36,13 +36,13 @@ menu:
         params:
           target: "_blank"
 
-      - identifier: youtube
-        name: ""
-        url: "https://www.youtube.com/@bro_matthieu"
-        weight: 6
-        pre: "<i class='fab fa-youtube'></i> "
-        params:
-          target: "_blank"
+#      - identifier: youtube
+#        name: ""
+#        url: "https://www.youtube.com/@bro_matthieu"
+#        weight: 6
+#        pre: "<i class='fab fa-youtube'></i> "
+#        params:
+#          target: "_blank"
 
       - identifier: twitter
         name: ""
