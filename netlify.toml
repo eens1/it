@@ -1,0 +1,14 @@
+[build]
+command = """
+hugo mod get -u
+hugo --gc --minify
+npx pagefind --site 'public'
+"""
+publish = "public"
+
+[build.environment]
+HUGO_VERSION = "0.135.0"
+
+[context.production.environment]
+HUGO_ENV = "production"
+HUGO_BASEURL = "https://eens-it.netlify.app"
