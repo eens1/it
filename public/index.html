@@ -10,7 +10,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Extra Ecclesiam Nulla Salus</title>
 <link rel="icon" type="image/png" href="/images/favicon.png" />
+
 <link rel="canonical" href="https://eens-it.netlify.app/" />
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
 
 
 
@@ -29,6 +33,10 @@
 
   
     <link rel="stylesheet" href="/css/index.css">
+  
+
+  
+    <link rel="stylesheet" href="/css/pagefind.css">
   
 
   
@@ -52,8 +60,6 @@
 
 
   <script src="/js/header.js" defer></script>
-
-  <script src="/js/search.js" defer></script>
 
 
 
@@ -119,6 +125,13 @@
 </header>
 
 <main>
+
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>
 
 
 
@@ -191,11 +204,12 @@
 
 
 
-
   
   
 
   
+    
+      
     
   
 
@@ -203,6 +217,8 @@
   
 
   
+    
+      
     
   
 
@@ -213,13 +229,15 @@
 
    <div class="post-item">
    <li>
-   <a href="/riferimenti/">Riferimenti</a>
+      <a href="/riferimenti/">Riferimenti</a>
+      
    </li>
    </div>
 
    <div class="post-item">
    <li>
-   <a href="/vita-religiosa/">Vita religiosa</a>
+      <a href="/vita-religiosa/">Vita religiosa</a>
+      
    </li>
    </div>
 

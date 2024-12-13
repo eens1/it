@@ -1,0 +1,16 @@
+:root {
+--pagefind-ui-primary: #eeeeee;
+--pagefind-ui-text: #eeeeee;
+--pagefind-ui-background: #152028;
+--pagefind-ui-border: #152028;
+--pagefind-ui-tag: #152028;
+}
+
+#search {
+max-width: 500px;
+margin: 20px auto 0px;
+border: solid 2px rgb(100,100,100);
+border-radius: 10px;
+padding: 1px;
+z-index: 999;
+}
