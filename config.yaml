@@ -16,12 +16,12 @@ markup:
 
 menu:
    main:
-      - name: Accueil
+      - name: Home
         url: /
         weight: 1
 
-      - name: Contact
-        url: /contact
+      - name: Contatto
+        url: /contatto
         weight: 2
 
       - name: "English"
