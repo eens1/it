@@ -12,7 +12,7 @@ label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #ffffff; /* Light color for labels */
+  color: var(--text-color); /* Light color for labels */
 }
 
 input[type="text"],
@@ -20,12 +20,12 @@ input[type="email"],
 textarea {
   width: 90%;
   padding: 10px;
-  border: 1px solid #444; /* Dark border */
   border-radius: 4px;
-  background-color: #2a2a2a; /* Dark background for inputs */
-  color: #ffffff; /* Light text color for inputs */
-  font-size: 16px;
-  transition: border-color 0.3s;
+  background-color: var(--light-bg-color); /* Dark background for inputs */
+  color: var(--text-color); /* Light text color for inputs */
+  border: 1px solid var(--text-color);
+  font-size: var(--font-size);
+  font-family: var(--font-family);
 }
 
 input[type="text"]:focus,
