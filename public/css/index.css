@@ -159,3 +159,74 @@ text-decoration: none;
 .homepage-dark-section .text-block em {
   font-style: italic;
 }
+
+
+
+
+
+/* Container for the featured boxes */
+.featured-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Individual box styles */
+.featured-box {
+  background-color: transparent;
+  border: 2px solid #444;  /* Dark border */
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;  /* Fixed width for boxes */
+  text-align: center;
+  /*transition: transform 0.3s ease;*/
+  cursor: pointer;
+}
+
+.featured-box a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* Icon styles */
+.featured-box .icon {
+  font-size: 40px;
+  color: var(--text-color);  /* White icon color */
+  margin-bottom: 10px;
+}
+
+/* Title styles */
+.featured-box h3 {
+  color: var(--text-color);  /* White text for the title */
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Description styles */
+.featured-box p {
+  color: var(--light-text-color);  /* Light grey text for the description */
+  font-size: 1em;
+}
+
+/* Hover effect */
+.featured-box:hover {
+  /*transform: translateY(-5px);*/
+  border-color: var(--light-text-color);  /* Highlight border on hover */
+}
+.featured-box:hover a {
+text-decoration: none;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .featured-box {
+    width: 100%;
+    max-width: 300px;  /* Ensure it doesn't stretch too wide on smaller screens */
+    margin: 10px 0;
+  }
+}
