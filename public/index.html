@@ -13,6 +13,15 @@
 
 <link rel="canonical" href="https://eens-it.netlify.app/" />
 
+<script>
+(function() {
+const savedTheme = localStorage.getItem("theme");
+const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+const theme = savedTheme || (prefersDark ? "dark" : "light");
+document.documentElement.setAttribute("data-theme", theme);
+})();
+</script>
+
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js"></script>
 
@@ -60,6 +69,8 @@
 
 
   <script src="/js/header.js" defer></script>
+
+  <script src="/js/theme.js" defer></script>
 
 
 
@@ -116,6 +127,10 @@
         <a href="https://x.com/BroMatthewOFMC" target="_blank"><i class="fab fa-x-twitter"></i></a>
       </li>
     
+      <li>
+        <a href="#" ><i id="theme-icon" class="fas fa-moon"></i></a>
+      </li>
+    
   </ul>
 </nav>
 </div>
@@ -135,9 +150,10 @@
 
 
 
+
 <div class="home">
 
-<div class="heading">Blog</div>
+<div class="heading"><a href="/blog">Blog</a></div>
 
 <div class="latest-posts-container">
   

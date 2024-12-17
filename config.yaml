@@ -52,6 +52,12 @@ menu:
         params:
           target: "_blank"
 
+      - identifier: theme-switcher
+        name: ""
+        url: "#"
+        weight: 8
+        pre: '<i id="theme-icon" class="fas fa-moon"></i>'
+
 params:
    dateFormat: "Jan 02, 2006"
    quickLinks:

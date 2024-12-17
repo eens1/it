@@ -1,16 +1,23 @@
 :root {
---pagefind-ui-primary: #eeeeee;
---pagefind-ui-text: #eeeeee;
---pagefind-ui-background: #152028;
+--pagefind-ui-primary: var(--text-color);
+--pagefind-ui-text: var(--text-color);
+--pagefind-ui-background: var(--bg-color);
 --pagefind-ui-border: #152028;
---pagefind-ui-tag: #152028;
+--pagefind-ui-tag: var(--text-color);
+--pagefind-ui-scale: 1;
+--pagefind-ui-border-width: 2px;
+--pagefind-ui-border-radius: 8px;
+--pagefind-ui-image-border-radius: 8px;
+--pagefind-ui-image-box-ratio: 3 / 2;
+--pagefind-ui-font: var(--font-family);
 }
 
 #search {
 max-width: 600px;
 margin: 20px auto 0px;
-border: solid 2px rgb(100,100,100);
-border-radius: 10px;
-padding: 1px;
-z-index: 999;
+}
+
+#search input {
+color: var(--text-color);
+border: 2px solid var(--search-border-color);
 }

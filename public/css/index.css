@@ -7,6 +7,9 @@ text-align: center;
 font-weight: bold;
 margin-top: 20px;
 }
+.home .heading a {
+color: var(--text-color);
+}
 
 .home .quick-links-container {
 display: flex;
@@ -16,7 +19,7 @@ justify-content: center;
 
 .home .quick-links-group {
 margin: 10px;
-background-color: rgb(30,30,30);
+background-color: var(--light-bg-color);
 padding: 10px;
 border-radius: 5px;
 width: 270px;
@@ -56,7 +59,7 @@ text-align: center;
 color: #ffffff;
 border-radius: 8px;
 overflow: hidden;
-background-color: #1e1e1e;
+background-color: var(--light-bg-color);
 width: 270px;
 height: 300px;
 margin: 10px;
@@ -90,7 +93,7 @@ text-decoration: none;
 /* Dark-themed section wrapper */
 .homepage-dark-section {
   padding: 2rem;
-  color: #f5f5f5; /* Light text for contrast */
+  color: var(--text-color); /* Light text for contrast */
 }
 
 /* Wrapper for text blocks */
@@ -102,7 +105,7 @@ text-decoration: none;
 
 /* Individual text blocks */
 .homepage-dark-section .text-block {
-  background-color: #2a2a2a; /* Slightly lighter dark box */
+  background-color: var(--light-bg-color); /* Slightly lighter dark box */
   border-radius: 8px;
   padding: 1rem;
   flex: 1 1 calc(33.333% - 1rem); /* Responsive three columns */
