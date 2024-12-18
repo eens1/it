@@ -12,6 +12,7 @@
 --small-font: 14px;
 --font-family: 'Nunito', sans-serif;
 --logo-bg-color: var(--text-color);
+--border-color: #444;
 }
 
 [data-theme="light"] {
