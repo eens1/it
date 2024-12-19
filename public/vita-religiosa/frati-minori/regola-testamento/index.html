@@ -75,7 +75,14 @@
 <meta name="twitter:description" content="Fonte: T. P. Vaticana 1926." />
 <meta name="twitter:image" content="https://eens-it.netlify.app/" />
 
-
+<script>
+(function() {
+const savedTheme = localStorage.getItem("theme");
+const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+const theme = savedTheme || (prefersDark ? "dark" : "light");
+document.documentElement.setAttribute("data-theme", theme);
+})();
+</script>
 
 
 
@@ -116,6 +123,10 @@
     
       <li>
         <a href="https://eens-fr.netlify.app" target="_blank">Français</a>
+      </li>
+    
+      <li>
+        <a href="https://www.youtube.com/@BroMatthewCap" target="_blank"><i class='fab fa-youtube'></i> </a>
       </li>
     
       <li>

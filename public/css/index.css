@@ -206,9 +206,10 @@ text-decoration: none;
 
 /* Icon styles */
 .featured-box .icon {
-  font-size: 40px;
-  color: var(--text-color);  /* White icon color */
-  margin-bottom: 10px;
+  margin: 20px auto 0px;
+}
+.featured-box .icon svg {
+   height: 40px;
 }
 
 /* Title styles */
