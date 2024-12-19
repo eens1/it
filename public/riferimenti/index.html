@@ -75,15 +75,18 @@
 <meta name="twitter:description" content="T. P. Vaticana. (1926). Regola e Testamento del Serafico Padre S. Francesco, con le Costituzioni dei Frati Minori Cappuccini, Roma Tipografia Poliglotta Vaticana." />
 <meta name="twitter:image" content="https://eens-it.netlify.app/" />
 
+
 <script>
 (function() {
-const savedTheme = localStorage.getItem("theme");
-const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-const theme = savedTheme || (prefersDark ? "dark" : "light");
-document.documentElement.setAttribute("data-theme", theme);
+    const savedTheme = localStorage.getItem("theme");
+
+    
+    const theme = savedTheme || "dark";
+
+    
+    document.documentElement.setAttribute("data-theme", theme);
 })();
 </script>
-
 
 
 
