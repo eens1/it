@@ -1,0 +1,16 @@
+.comments {
+background-color: rgb(30,30,30);
+padding: 20px;
+border-radius: 10px;
+}
+
+/* More specific selector */
+.comments #cusdis_thread {
+    background: transparent !important;
+    color: #000; /* Change text color for better visibility */
+}
+
+.comments #cusdis_thread .cusdis-comment {
+    background: transparent !important; /* Ensures comments have no background */
+}
+

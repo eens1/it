@@ -1,0 +1,15 @@
+article .toc nav ul {
+display: block;
+list-style-type: disc;
+}
+
+article .toc nav ul li a {
+font-weight: normal;
+color: var(--link-color)
+}
+
+article .toc {
+background-color: var(--light-bg-color);
+padding: 1px 10px 20px 20px;
+border-radius: 10px;
+}
