@@ -1,0 +1,93 @@
+.home .citation {
+max-width: 600px;
+margin: 50px auto 50px;
+text-align: center;
+font-size: 25px;
+font-style: italic;
+font-weight: bold;
+}
+
+/* Container for the featured boxes */
+.featured-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 0px 0px 20px 0px;
+}
+
+/* Individual box styles */
+.featured-box {
+  background-color: transparent;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden; /* Ensures content doesn't overflow the box */
+  padding: 0; /* Remove padding for better image alignment */
+  width: 350px; /* Fixed width for boxes */
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.featured-box a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* Image styles */
+.featured-box .image {
+  overflow: hidden; /* Ensures uniformity by cropping overflowing parts of images */
+  width: 100%; /* Full width of the box */
+  height: 160px; /* Fixed height for images */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color-light); /* Fallback color if no image is present */
+}
+
+.featured-box .image img {
+  width: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Content styles */
+.featured-box .content {
+  padding: 0px 20px 20px 20px;
+}
+
+.featured-box h3 {
+  color: var(--text-color); /* White text for the title */
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.featured-box p {
+  color: var(--light-text-color); /* Light grey text for the description */
+  font-size: 1em;
+  margin: 0;
+  text-align: left;
+}
+
+/* Hover effect */
+.featured-box:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  border-color: var(--light-text-color); /* Highlight border on hover */
+}
+
+.featured-box:hover a {
+  text-decoration: none;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 500px) {
+  .featured-box {
+    width: 100%;
+  }
+}
+
+.home .home-index {
+margin: 40px 0px 20px 20px;
+}
