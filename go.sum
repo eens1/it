@@ -168,3 +168,5 @@ github.com/eens1/config v0.0.0-20241229173125-2724e0c9c9ed h1:WAeyIWTQlWoCHkyCyb
 github.com/eens1/config v0.0.0-20241229173125-2724e0c9c9ed/go.mod h1:WccIBwO6Cw5wlt2HJ3katlH0qZNQeeaLX7+GkVR0FmI=
 github.com/eens1/config v0.0.0-20241229173935-5a6457c3fc8f h1:CyIYDRfZtnJRqn9S64oKiRGWXFbIbWQBenovDeB6mEc=
 github.com/eens1/config v0.0.0-20241229173935-5a6457c3fc8f/go.mod h1:WccIBwO6Cw5wlt2HJ3katlH0qZNQeeaLX7+GkVR0FmI=
+github.com/eens1/config v0.0.0-20241229180031-99149b9a7e61 h1:J7zOPnU/1kqrMIrCyFVslxG7TPDfn3rk8HEOLo5z0PE=
+github.com/eens1/config v0.0.0-20241229180031-99149b9a7e61/go.mod h1:WccIBwO6Cw5wlt2HJ3katlH0qZNQeeaLX7+GkVR0FmI=
